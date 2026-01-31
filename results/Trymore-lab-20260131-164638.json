@@ -1,0 +1,1016 @@
+{
+  "participants": {
+    "agent": "019c14a2-7fe8-70a1-ba0a-9942fe34791b"
+  },
+  "results": [
+    {
+      "total": 1800,
+      "correct": 0,
+      "accuracy": 0.0,
+      "by_task": {
+        "cin_fusion": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "flip_overlay": {
+          "total": 1200,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "gradient_overlay": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "by_lang": {
+        "zh": {
+          "total": 800,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "en": {
+          "total": 500,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "ja": {
+          "total": 500,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "by_task_lang": {
+        "cin_fusion:zh": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "flip_overlay:en": {
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "flip_overlay:ja": {
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "flip_overlay:zh": {
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "gradient_overlay:en": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "gradient_overlay:ja": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "gradient_overlay:zh": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "by_variant": {
+        "b": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "a": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "d": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "c": {
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "by_mode": {
+        "lr": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "tb": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        },
+        "diag": {
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0
+        }
+      },
+      "weighted_score": 0.0,
+      "weighted_score_max": 900.0,
+      "weighted_score_categories": [
+        {
+          "task": "cin_fusion",
+          "lang": "zh",
+          "max_points": 100.0,
+          "total": 300,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "cin_fusion",
+          "lang": "en",
+          "max_points": 100.0,
+          "total": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "cin_fusion",
+          "lang": "ja",
+          "max_points": 100.0,
+          "total": 0,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "flip_overlay",
+          "lang": "zh",
+          "max_points": 100.0,
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "flip_overlay",
+          "lang": "en",
+          "max_points": 100.0,
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "flip_overlay",
+          "lang": "ja",
+          "max_points": 100.0,
+          "total": 400,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "gradient_overlay",
+          "lang": "zh",
+          "max_points": 100.0,
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "gradient_overlay",
+          "lang": "en",
+          "max_points": 100.0,
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        },
+        {
+          "task": "gradient_overlay",
+          "lang": "ja",
+          "max_points": 100.0,
+          "total": 100,
+          "correct": 0,
+          "accuracy": 0.0,
+          "score": 0.0
+        }
+      ],
+      "log_path": "/home/agent/logs/responses_20260131_164423.jsonl",
+      "manifest_path": "/home/agent/datasets/manifest.jsonl",
+      "manifest_summary": {
+        "total": 1800,
+        "skipped": 0
+      },
+      "time_used_sec": 134.855,
+      "error_samples": [
+        {
+          "id": "cin_fusion_zh_00001",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/1-1.png",
+          "ground_truth": "\u753b\u86c7\u6dfb\u8db3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u753b\u86c7\u6dfb\u8db3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00002",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/1-2.png",
+          "ground_truth": "\u753b\u86c7\u6dfb\u8db3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u753b\u86c7\u6dfb\u8db3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00003",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/1-3.png",
+          "ground_truth": "\u753b\u86c7\u6dfb\u8db3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u753b\u86c7\u6dfb\u8db3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00004",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/2-1.png",
+          "ground_truth": "\u63a9\u8033\u76d7\u94c3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u63a9\u8033\u76d7\u94c3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00005",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/2-2.png",
+          "ground_truth": "\u63a9\u8033\u76d7\u94c3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u63a9\u8033\u76d7\u94c3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00006",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/2-3.png",
+          "ground_truth": "\u63a9\u8033\u76d7\u94c3",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u63a9\u8033\u76d7\u94c3"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00007",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/3-1.png",
+          "ground_truth": "\u5b88\u682a\u5f85\u5154",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5b88\u682a\u5f85\u5154"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00008",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/3-2.png",
+          "ground_truth": "\u5b88\u682a\u5f85\u5154",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5b88\u682a\u5f85\u5154"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00009",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/3-3.png",
+          "ground_truth": "\u5b88\u682a\u5f85\u5154",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5b88\u682a\u5f85\u5154"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00010",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/4-1.png",
+          "ground_truth": "\u4ea1\u7f8a\u8865\u7262",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4ea1\u7f8a\u8865\u7262"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00011",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/4-2.png",
+          "ground_truth": "\u4ea1\u7f8a\u8865\u7262",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4ea1\u7f8a\u8865\u7262"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00012",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/4-3.png",
+          "ground_truth": "\u4ea1\u7f8a\u8865\u7262",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4ea1\u7f8a\u8865\u7262"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00013",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/5-1.png",
+          "ground_truth": "\u6309\u90e8\u5c31\u73ed",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6309\u90e8\u5c31\u73ed"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00014",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/5-2.png",
+          "ground_truth": "\u6309\u90e8\u5c31\u73ed",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6309\u90e8\u5c31\u73ed"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00015",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/5-3.png",
+          "ground_truth": "\u6309\u90e8\u5c31\u73ed",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6309\u90e8\u5c31\u73ed"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00016",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/6-1.png",
+          "ground_truth": "\u81ea\u76f8\u77db\u76fe",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u81ea\u76f8\u77db\u76fe"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00017",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/6-2.png",
+          "ground_truth": "\u81ea\u76f8\u77db\u76fe",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u81ea\u76f8\u77db\u76fe"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00018",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/6-3.png",
+          "ground_truth": "\u81ea\u76f8\u77db\u76fe",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u81ea\u76f8\u77db\u76fe"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00019",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/7-1.png",
+          "ground_truth": "\u6ee5\u7afd\u5145\u6570",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6ee5\u7afd\u5145\u6570"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00020",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/7-2.png",
+          "ground_truth": "\u6ee5\u7afd\u5145\u6570",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6ee5\u7afd\u5145\u6570"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00021",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/7-3.png",
+          "ground_truth": "\u6ee5\u7afd\u5145\u6570",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6ee5\u7afd\u5145\u6570"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00022",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/8-1.png",
+          "ground_truth": "\u7eb8\u4e0a\u8c08\u5175",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u7eb8\u4e0a\u8c08\u5175"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00023",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/8-2.png",
+          "ground_truth": "\u7eb8\u4e0a\u8c08\u5175",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u7eb8\u4e0a\u8c08\u5175"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00024",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/8-3.png",
+          "ground_truth": "\u7eb8\u4e0a\u8c08\u5175",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u7eb8\u4e0a\u8c08\u5175"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00025",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/9-1.png",
+          "ground_truth": "\u76f2\u4eba\u6478\u8c61",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u76f2\u4eba\u6478\u8c61"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00026",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/9-2.png",
+          "ground_truth": "\u76f2\u4eba\u6478\u8c61",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u76f2\u4eba\u6478\u8c61"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00027",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/9-3.png",
+          "ground_truth": "\u76f2\u4eba\u6478\u8c61",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u76f2\u4eba\u6478\u8c61"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00028",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/10-1.png",
+          "ground_truth": "\u5750\u4e95\u89c2\u5929",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5750\u4e95\u89c2\u5929"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00029",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/10-2.png",
+          "ground_truth": "\u5750\u4e95\u89c2\u5929",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5750\u4e95\u89c2\u5929"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00030",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/10-3.png",
+          "ground_truth": "\u5750\u4e95\u89c2\u5929",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u5750\u4e95\u89c2\u5929"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00031",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/11-1.png",
+          "ground_truth": "\u6307\u9e7f\u4e3a\u9a6c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6307\u9e7f\u4e3a\u9a6c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00032",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/11-2.png",
+          "ground_truth": "\u6307\u9e7f\u4e3a\u9a6c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6307\u9e7f\u4e3a\u9a6c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00033",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/11-3.png",
+          "ground_truth": "\u6307\u9e7f\u4e3a\u9a6c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u6307\u9e7f\u4e3a\u9a6c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00034",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/12-1.png",
+          "ground_truth": "\u523b\u821f\u6c42\u5251",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u523b\u821f\u6c42\u5251"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00035",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/12-2.png",
+          "ground_truth": "\u523b\u821f\u6c42\u5251",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u523b\u821f\u6c42\u5251"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00036",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/12-3.png",
+          "ground_truth": "\u523b\u821f\u6c42\u5251",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u523b\u821f\u6c42\u5251"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00037",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/13-1.png",
+          "ground_truth": "\u8d70\u9a6c\u89c2\u82b1",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u8d70\u9a6c\u89c2\u82b1"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00038",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/13-2.png",
+          "ground_truth": "\u8d70\u9a6c\u89c2\u82b1",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u8d70\u9a6c\u89c2\u82b1"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00039",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/13-3.png",
+          "ground_truth": "\u8d70\u9a6c\u89c2\u82b1",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u8d70\u9a6c\u89c2\u82b1"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00040",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/14-1.png",
+          "ground_truth": "\u4e00\u9e23\u60ca\u4eba",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e00\u9e23\u60ca\u4eba"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00041",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/14-2.png",
+          "ground_truth": "\u4e00\u9e23\u60ca\u4eba",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e00\u9e23\u60ca\u4eba"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00042",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/14-3.png",
+          "ground_truth": "\u4e00\u9e23\u60ca\u4eba",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e00\u9e23\u60ca\u4eba"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00043",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/15-1.png",
+          "ground_truth": "\u4e09\u987e\u8305\u5e90",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e09\u987e\u8305\u5e90"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00044",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/15-2.png",
+          "ground_truth": "\u4e09\u987e\u8305\u5e90",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e09\u987e\u8305\u5e90"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00045",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/15-3.png",
+          "ground_truth": "\u4e09\u987e\u8305\u5e90",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u4e09\u987e\u8305\u5e90"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00046",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/16-1.png",
+          "ground_truth": "\u56db\u9762\u695a\u6b4c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u56db\u9762\u695a\u6b4c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00047",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/16-2.png",
+          "ground_truth": "\u56db\u9762\u695a\u6b4c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u56db\u9762\u695a\u6b4c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00048",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "diag",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/16-3.png",
+          "ground_truth": "\u56db\u9762\u695a\u6b4c",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u56db\u9762\u695a\u6b4c"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00049",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "lr",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/17-1.png",
+          "ground_truth": "\u9000\u907f\u4e09\u820d",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u9000\u907f\u4e09\u820d"
+          },
+          "correct": false,
+          "response_raw": ""
+        },
+        {
+          "id": "cin_fusion_zh_00050",
+          "task": "cin_fusion",
+          "lang": "zh",
+          "variant": null,
+          "mode": "tb",
+          "image_path": "/home/agent/datasets/cin_fusion/zh/17-2.png",
+          "ground_truth": "\u9000\u907f\u4e09\u820d",
+          "prediction": "",
+          "normalized": {
+            "pred": "",
+            "truth": "\u9000\u907f\u4e09\u820d"
+          },
+          "correct": false,
+          "response_raw": ""
+        }
+      ]
+    }
+  ]
+}
