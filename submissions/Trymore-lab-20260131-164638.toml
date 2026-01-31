@@ -1,0 +1,18 @@
+
+[green_agent]
+agentbeats_id = "019c1482-6066-7cd2-b0d4-73f7ceeac8d4"
+env = { LOG_LEVEL = "INFO" }
+
+[[participants]]
+agentbeats_id = "019c14a2-7fe8-70a1-ba0a-9942fe34791b"
+name = "agent"
+env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
+
+[config]
+dataset_root = "datasets"
+model = "gemini-2.5-flash"
+prompt_version = "basic"
+tasks = ["flip_overlay", "gradient_overlay", "cin_fusion"]
+langs = ["en", "zh", "ja"]
+shuffle = false
+seed = 42

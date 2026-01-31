@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "ghcr.io/trymore-lab/green-visible-yet-unreadable@sha256:180e2d5397edff2c64e4eb74a42b1dfad5da91ba8cc4ccc0696a189876c15b94",
+    "agent": "ghcr.io/trymore-lab/purple-agent-visual-text@sha256:aaf43e703b44ac2eda9625b925aa92ad5bf9b2b7f9918928c79b428070884a49",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-31T16:46:38Z",
+  "github_actions": {
+    "run_url": "https://github.com/Trymore-lab/visible-yet-unreadable-leaderboard/actions/runs/21547592784",
+    "run_logs_url": "https://api.github.com/repos/Trymore-lab/visible-yet-unreadable-leaderboard/actions/runs/21547592784/logs",
+    "ref": "refs/heads/Trymore-lab-patch-16",
+    "sha": "6e1b6c6e219a0251c503ceb1fcf85bec5f4c6bf2",
+    "repository_url": "https://github.com/Trymore-lab/visible-yet-unreadable-leaderboard",
+    "workflow_ref": "Trymore-lab/visible-yet-unreadable-leaderboard/.github/workflows/run-scenario.yml@refs/heads/Trymore-lab-patch-16",
+    "workflow_sha": "6e1b6c6e219a0251c503ceb1fcf85bec5f4c6bf2"
+  }
+}
