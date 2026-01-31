@@ -6,7 +6,6 @@ env = { LOG_LEVEL = "INFO" }
 
 [[participants]]
 agentbeats_id = "019c14a2-7fe8-70a1-ba0a-9942fe34791b"
-image = "ghcr.io/trymore-lab/purple-agent-visual-text:v1.0"
 name = "agent"
 env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
