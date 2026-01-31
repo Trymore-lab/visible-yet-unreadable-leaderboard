@@ -1,6 +1,5 @@
 
 [green_agent]
-agentbeats_id = "019c1482-6066-7cd2-b0d4-73f7ceeac8d4"
 image = "ghcr.io/trymore-lab/green-visible-yet-unreadable:v1.0"
 env = { LOG_LEVEL = "INFO" }
 
