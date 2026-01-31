@@ -10,7 +10,7 @@ env = { GOOGLE_API_KEY = "${GOOGLE_API_KEY}" }
 
 [config]
 dataset_root = "datasets"
-model = "gemini-2.0-flash"
+model = "gemini-2.5-flash"
 prompt_version = "basic"
 tasks = ["flip_overlay", "gradient_overlay", "cin_fusion"]
 langs = ["en", "zh", "ja"]
